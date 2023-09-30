@@ -1,0 +1,19 @@
+arre = []
+
+while True:
+   nombre = str (input ("Ingresa tu nombre --> "))
+   edad = int(input("Ingresa tu edad --> "))
+
+
+arre.append([nombre, edad]):
+
+
+    print(.join([f"{nombre}: {edad}" for nombre, edad in arre]))
+
+    print("¿Quieres seguir ingresando otros datos?<3")
+    print("3) Si")
+    print("6) No")
+    lim = int (input("Ingresa tu opcion --> "))
+
+    if  lim == 6:
+        break
