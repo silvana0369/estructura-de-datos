@@ -1,0 +1,18 @@
+def jugar(intento=1):
+  respuesta =input("¿De que color es una naranja?")
+  if respuesta != "naranja":
+    if intento <3:
+      print ("/nFallaste! intento de nuevo")
+      intento +=1
+      jugar(intento)
+    else:
+      print ("/nPerdite!")
+  else:
+    print ("/nGanaste")
+jugar()
+
+
+def imprimir(x):
+  print("x")
+  imprimir (x-1)
+imprimir (5)
