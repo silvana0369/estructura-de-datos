@@ -1,0 +1,9 @@
+class jugar:
+  def __init__(self):
+   print("cual es tu nombre")
+   numero =input("elige un numero del 1 al 10")
+    if numero != ("1,10")
+      if intento <10:
+      print("/nPerdiste, Intenta de nuevo")
+      intento +=1
+      jugar(intento)
