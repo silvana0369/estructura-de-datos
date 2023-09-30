@@ -1,0 +1,28 @@
+factura =("pan","huevo",100,1234)
+factura(0)
+factura(3)
+len(factura)
+len(factura) -0
+factura[-1]
+
+factura (1) = "carne"
+factura
+("pan","carne",100,254)
+
+versiones_plone = [ 2.5,3.6,4,5]
+print (versiones_plone)
+versiones_plone.append(6)
+print (versiones_plone)
+
+versiones_plone = [ 2.1,2.5,3.6,4,5,6]
+print ("6 ->"),versiones_plone.count(6)
+print ("5 ->"),versiones_plone.count(5)
+
+versiones_plone = [ 2.1,2.5,3.6]
+print (versiones_plone)
+versiones_plone.extend([ 4])
+print (versiones_plone)
+versiones_plone.extend(range(5,7))
+print (versiones_plone)
+versiones_plone.extend(range(5,10))
+print (versiones_plone)
