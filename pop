@@ -1,0 +1,72 @@
+versiones_plone = [ 2.1,2.5,3.6,4,5,6,4]
+print (versiones_plone.index(4))
+
+versiones_plone =[ 2.10,2.5,3.6,4,5,6,4]
+versiones_plone [ 2]
+print (versiones_plone.index(4,2))
+versiones_plone[ 3]
+print (versiones_plone.index(4,5))
+
+versiones_plone =[ 2.10,2.5,3.6,4,5,6,4]
+versiones_plone [ 2]
+print (versiones_plone.index(5,4))
+
+versiones_plone = [ 2.1,2.5,3.6,4,5,6,4]
+print (versiones_plone.index(6))
+
+#insert#
+versiones_plone = [ 2.1,2.5,3.6,4,5,6]
+print (versiones_plone)
+versiones_plone.insert(2,3.7)
+print (versiones_plone)
+
+versiones_plone = [ 2.1,2.5,3.6,4,5,6]
+print (versiones_plone)
+versiones_plone.insert(2,7)
+print (versiones_plone)
+
+#pop#
+versiones_plone =[2.1,2.5,3.6,4,5,6]
+print (versiones_plone.pop())
+print (versiones_plone)
+
+versiones_plone =[2.1,2.5,3.6,4,5,6]
+print (versiones_plone.pop(2))
+print (versiones_plone)
+
+#remove#
+versiones_plone = [2.1,2.5,3.6,4,5,6]
+print (versiones_plone)
+versiones_plone.remove(2.5)
+print (versiones_plone)
+
+#reverse#
+versiones_plone = [ 2.1,2.5,3.6,4,5,6]
+print (versiones_plone)
+versiones_plone.reverse()
+print (versiones_plone)
+
+#sort#
+versiones_plone = [4,2.5,5,3.6,2.1,6]
+print (versiones_plone)
+versiones_plone.sort()
+print (versiones_plone)
+
+versiones_plone.sort(reverse=True)
+print (versiones_plone
+
+vocales ="aeiou"
+for letra in "hermosa":
+  if letra in vocales:
+    print (letra)
+
+#split#
+mensaje = "hola, como estas tu?"
+mensaje.split()
+for palabra in mensaje.split():
+   print (palabra)
+
+preguntas = ["nombre", "objetivo", "sistema operativo"]
+respuestas =["leonardo", "aprender python y plone", "linux"]
+for pregunta, respuesta in zip (preguntas,respuestas):
+    print "¿cual es tu {0}?, la respuesta es: {1}.".format(pregunta, respuesta)
