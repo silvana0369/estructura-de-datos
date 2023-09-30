@@ -1,0 +1,4 @@
+print("bienvenidos <3")
+nombre=str(input("ingresa tu nombre \n")) #str es para caracteres
+edad=str(input("ingresa tu edad \n"))
+print("Hola tu nombre es:", nombre,edad)
