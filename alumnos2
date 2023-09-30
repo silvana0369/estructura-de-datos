@@ -1,0 +1,25 @@
+class alumno: 
+  def __init__(self,nombre,carrera,numControl,semestre):
+    self.nombre = nombre
+    self.carrera = carrera
+    self.numControl = numControl
+    self.semestre = semestre
+
+    print(int("cual es tu nombre-->")):
+    
+  def escogerCarrera(self,cambio):
+    if cambio = 1:
+      self.carrera = "contabilidad"
+    if cambio = 2:
+      self.carrera = "mercadoctecnia"
+    if cambio = 3:
+      self.carrera = "diseño grafico"
+    
+  def imprimir(self):
+    print(self.nombre)
+    print(self.carrera)
+    print(self.numControl)
+    print(self.semestre)
+
+print(nombre,carrera,numControl,semestre)
+print()
