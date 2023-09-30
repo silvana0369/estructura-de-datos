@@ -1,0 +1,10 @@
+s = 1
+estudiante = ("")
+comida = ("tostadas","enchiladas","tacos","lasaña","sopes")
+bebidas = ("caguama","fanta","agua de mango")
+
+def main():
+  estudiante = int(input("ingresa tu nombre -->"))
+  comida.append("tostadas")
+while s==1
+  comida = int(input("¿Que desea realizar?,  alumno, comida, bebida"))
