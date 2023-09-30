@@ -1,0 +1,21 @@
+def imprimir_apilar(self,apilar,numeros,empieza,termina):
+        self.items = []
+
+def imprimir_apilar(apilar):
+  if len(apilar)==3:
+    return
+  print(apilar[:3])
+  imprimir_apilar(apilar[3:])
+
+numeros=[1,2,3,4,5,6,7,8,9,10,11,12]
+apilar=[]
+imprimir_apilar(numeros)
+
+def imprimir_apilar(self,apilar,numeros,empieza,termina):
+        self.items = []
+
+def imprimir_apilar(apilar):
+  if len(apilar)==3:
+    return
+  print(apilar[:3])
+  imprimir_apilar(apilar[3:])
