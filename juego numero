@@ -7,3 +7,18 @@ class jugar:
       print("/nPerdiste, Intenta de nuevo")
       intento +=1
       jugar(intento)
+
+
+def jugar(intento=1000):
+  print ("ingresa tu nombre")
+  respuesta =input("ingresa un numero")
+  if respuesta != 0<1<1000:
+    if intento <1000:
+      print ("/nFallaste! intento de nuevo")
+      intento +=10
+      jugar(intento)
+    else:
+      print ("/nPerdite!")
+  else:
+    print ("/nGanaste")
+jugar()
